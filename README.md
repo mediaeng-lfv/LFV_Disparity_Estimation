@@ -3,7 +3,7 @@
 *Kagoshima University*  
 
 [**[Project]**](https://mediaeng-lfv.github.io/LFV_Disparity_Estimation/)
-[**[Paper]**]()
+[**[Paper]**](https://arxiv.org/abs/2012.03021)
 [**[Dataset]**](https://ieee-dataport.org/open-access/sintel-4d-light-field-videos-dataset)
 
 # Network Architecture
