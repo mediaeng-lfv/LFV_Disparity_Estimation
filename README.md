@@ -1,10 +1,21 @@
 # Depth estimation from 4D light field videos
-**Takahiro Kinoshita** and **Satoshi Ono**  
-*Kagoshima University*  
+We release the code of the "Depth Estimation from 4D Light Field Videos".  
 
+For the details, please follow the links below.  
 [**[Project]**](https://mediaeng-lfv.github.io/LFV_Disparity_Estimation/)
 [**[Paper]**](https://arxiv.org/abs/2012.03021)
-[**[Dataset]**](https://ieee-dataport.org/open-access/sintel-4d-light-field-videos-dataset)
+[**[Dataset]**](https://ieee-dataport.org/open-access/sintel-4d-light-field-video-dataset)
+
+## Reference
+Takahiro Kinoshita, Satoshi Ono. Depth Estimation from 4D Light Field Videos. International Workshop on Advanced Image Technology (IWAIT), (2021).  
+```bibtex
+@article{kinoshita2020depth,
+  title={Depth estimation from 4D light field videos},
+  author={Kinoshita, Takahiro and Ono, Satoshi},
+  journal={arXiv preprint arXiv:2012.03021},
+  year={2020}
+}
+```
 
 # Network Architecture
 ![architecture](https://user-images.githubusercontent.com/37448236/101273325-87c0fc00-37d7-11eb-9951-4542e7cc4d95.png)
@@ -25,9 +36,9 @@ pip install tensorflow==2.3.0 keras==2.4.3
 
 ## File structure 
 Please set up the file structure as follows.  
-[[Download full dataset from IEEE DataPort]](https://ieee-dataport.org/open-access/sintel-4d-light-field-videos-dataset)
+Download [Sintel_LFV_cross-hair.zip](https://ieee-dataport.org/open-access/sintel-4d-light-field-video-dataset) and unzip it to Sintel_LF.
 ```
-LF_video_disparity_estimation/
+LFV_Disparity_Estimation/
   ┣━━ README.md    ...    this document
   ┣━━ src/    ...    source codes
   ┣━━ Sintel_LF/    ...    downloaded full dataset
@@ -38,12 +49,12 @@ LF_video_disparity_estimation/
   ┃     ┣━━ train_data.txt        ...    scenes list for training
   ┃     ┣━━ validation_data.txt   ...    scenes list for validation
   ┃     ┗━━ test_data.txt         ...    scenes list for test
-  ┗━━ output/    ...    dir for output (this will be created later automatically created.)
+  ┗━━ output/    ...    dir for output
 ```
 
 ## Code details
 ```
-LF_video_disparity_estimation/
+LFV_Disparity_Estimation/
   ┗━━ src/
         ┣━━ create_dataset.py    ...    create patch data for patch-wise training
         ┃
@@ -54,7 +65,7 @@ LF_video_disparity_estimation/
         ┣━━ loss.py    ...    loss function
         ┣━━ sobel.py    ...    sobel filter for loss function
         ┣━━ mygenerator.py    ...    train/validation/test generator
-        ┣━━ train.py    ...    trainig main script
+        ┣━━ train.py    ...    training main script
         ┣━━ train_STCLSTM.py    ...    baseline model training
         ┣━━ train_baseline.py    ...    proposed model training
         ┃
