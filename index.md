@@ -7,6 +7,7 @@ International Workshop on Advanced Image Technology (IWAIT), Jan 2021
 [**[Paper]**](https://arxiv.org/abs/2012.03021)
 [**[Code]**](https://github.com/mediaeng-lfv/LFV_Disparity_Estimation)
 [**[Dataset]**](https://ieee-dataport.org/open-access/sintel-4d-light-field-videos-dataset)
+[**[DOI]**](https://doi.org/10.1117/12.2591012)
 
 ---
 
