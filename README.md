@@ -7,13 +7,16 @@ For the details, please follow the links below.
 [**[Dataset]**](https://ieee-dataport.org/open-access/sintel-4d-light-field-video-dataset)
 
 ## Reference
-Takahiro Kinoshita, Satoshi Ono. Depth Estimation from 4D Light Field Videos. International Workshop on Advanced Image Technology (IWAIT), (2021).  
+Takahiro Kinoshita and Satoshi Ono. Depth estimation from 4d light field videos. In International Workshop on Advanced Imaging Technology (IWAIT) 2021, Vol. 11766, p. 117660A. International Society for Optics and Photonics, 2021.
 ```bibtex
-@article{kinoshita2020depth,
+@inproceedings{kinoshita2021depth,
   title={Depth estimation from 4D light field videos},
   author={Kinoshita, Takahiro and Ono, Satoshi},
-  journal={arXiv preprint arXiv:2012.03021},
-  year={2020}
+  booktitle={International Workshop on Advanced Imaging Technology (IWAIT) 2021},
+  volume={11766},
+  pages={117660A},
+  year={2021},
+  organization={International Society for Optics and Photonics}
 }
 ```
 
