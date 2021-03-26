@@ -26,7 +26,7 @@ depth estimation accuracy in noisy regions.
 ---
 
 ## Our Example Results
-### Synstic data
+### Synthetic data
 ![synthetic_result](https://user-images.githubusercontent.com/37448236/107724284-df736a80-6d26-11eb-8891-563db2d6b960.gif)  
 ### Real-world data
 ![real_result](https://user-images.githubusercontent.com/37448236/107724517-5e68a300-6d27-11eb-9e32-dce1d3f08b71.gif)  
@@ -36,17 +36,20 @@ depth estimation accuracy in noisy regions.
 ## Citation
 If you find this useful for your research, please use the following.  
 ```bibtex
-@article{kinoshita2020depth,
+@inproceedings{kinoshita2021depth,
   title={Depth estimation from 4D light field videos},
   author={Kinoshita, Takahiro and Ono, Satoshi},
-  journal={arXiv preprint arXiv:2012.03021},
-  year={2020}
+  booktitle={International Workshop on Advanced Imaging Technology (IWAIT) 2021},
+  volume={11766},
+  pages={117660A},
+  year={2021},
+  organization={International Society for Optics and Photonics}
 }
 ```
 
 *    *    *
 
-## Our Dataset [[available at IEEE DataPort]](https://ieee-dataport.org/open-access/sintel-4d-light-field-videos-dataset)  
+## Our Dataset [[available at IEEE DataPort]](https://ieee-dataport.org/open-access/sintel-4d-light-field-video-dataset)  
 ![dataset](https://user-images.githubusercontent.com/37448236/107724659-bb645900-6d27-11eb-9b12-49377206892f.gif)  
 
 In order to evaluate the performance of 4D LFVs depth estimation methods, 
