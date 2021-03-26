@@ -5,6 +5,7 @@ For the details, please follow the links below.
 [**[Project]**](https://mediaeng-lfv.github.io/LFV_Disparity_Estimation/)
 [**[Paper]**](https://arxiv.org/abs/2012.03021)
 [**[Dataset]**](https://ieee-dataport.org/open-access/sintel-4d-light-field-video-dataset)
+[**[DOI]**](https://doi.org/10.1117/12.2591012)
 
 ## Reference
 Takahiro Kinoshita and Satoshi Ono. Depth estimation from 4d light field videos. In International Workshop on Advanced Imaging Technology (IWAIT) 2021, Vol. 11766, p. 117660A. International Society for Optics and Photonics, 2021.
